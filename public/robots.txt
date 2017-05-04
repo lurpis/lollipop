@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://pop.gmcloud.io/sitemap.xml

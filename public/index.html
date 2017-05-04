@@ -1,0 +1,84 @@
+<div class="bg-wrap"></div>
+<div class="logo-wrap">
+	<img class="logo" src="/asset/img/logo.png">
+	<p><a id="followus" href="javascript:;">关注我们</a></p>
+</div>
+<div id="api-status" class="api-status"></div>
+<div class="content-wrap">
+	<input id="userLink" class="form-control" type="text" name="userLink" placeholder="请输入您的邀请链接">
+	<div class="container">
+		<p class="tips">
+			<a data-toggle="toggle-inputKey" data-toggleb="toggle-nokey" class="left toggler" href="javascript:;">已有代点卡?</a>
+			<a id="query-by-url" class="buy-link"  href="javascript:;">查询</a>
+		</p>
+		<div class="toggler-target" id="toggle-inputKey">
+			<input id="userKey" class="form-control" type="text" name="userKey" placeholder="请输入您的代点卡">
+		</div>
+	</div>	
+</div>
+<div class="main wider-wrap" id="toggle-nokey">
+	<div class="item-detail">
+		<div class="choice-title">
+			<img class="service-time" src="/asset/img/servicetime.png">
+		</div>
+		<div id="choice-type" class="choice-detail choice-type">
+			<a class="" href="javascript:;" data-type="week">
+				<img class="choice-icon" data-type="week" src="/asset/img/choice-week.png">
+				<div class="select-icon"></div>
+			</a><a class="" href="javascript:;" data-type="month">
+				<img class="choice-icon" data-type="month" src="/asset/img/choice-month.png">
+				<div class="select-icon"></div>
+			</a><a class="" href="javascript:;" data-type="year">
+				<img class="choice-icon" data-type="year" src="/asset/img/choice-year.png">
+				<div class="select-icon"></div>
+			</a><a class="" href="javascript:;" data-type="day">
+				<img class="choice-icon" data-type="day" src="/asset/img/choice-day.png">
+				<div class="select-icon"></div>
+			</a>
+		</div>
+	</div>
+	<div id="price-block" class="item-detail">
+		<div class="choice-detail choice-price">
+			<img class="price-title" src="/asset/img/pricetitle.png">
+			<input id="buy-price" class="form-control sm-input" type="text" name="" value="" disabled="disabled">
+		</div>
+	</div>
+	<div id="payment-block" class="item-detail">
+		<div id="channel-choice" class="flex-container">
+			<div id="channel-common">
+				<a href="javascript:;" data-channel="alipay_qr" class="choice-pay fix-width js-pay-submit">
+					<img src="/asset/img/alipayqr.png">
+				</a>
+				<a href="javascript:;" data-channel="wx_pub_qr" class="choice-pay fix-width js-pay-submit">
+					<img src="/asset/img/wxqr.png">
+				</a>
+			</div>
+			<div id="channel-mobile">
+				<a href="javascript:;" data-channel="wx_pub" class="choice-pay js-pay-submit">
+					<img src="/asset/img/wxpub.png">
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content-wrap">
+	<a id="buy-submit" href="javascript:;" class="choice-pay">
+		<img src="/asset/img/auto.png">
+	</a>
+	<div class="user-guide">
+		<a data-toggle="toggle-help" class="toggler" href="javascript:;">使用帮助</a>
+		<div class="toggler-target" id="toggle-help">
+			<h4 class="title">使用提示</h4>
+			<p>输入您的球球大作战的邀请链接,提交后,即可获得5个棒棒糖</p>
+			<p>非VIP用户需要手动获取,每次5个</p>
+			<p>VIP用户将会由系统自动为您获取棒棒糖</p>
+			<h4 class="title">VIP激活方式</h4>
+			<p>购买激活码,使用该激活码之后即可成为VIP</p>
+			<p>如果您使用了多个激活码,激活码的时间会自动累加</p>
+			<h4 class="title">特别说明</h4>
+			<p>因球球大作战游戏本身的限制,每天只能领取5个棒棒糖,一周最多20个</p>
+			<h4 class="title">更换链接</h4>
+			<p>更换了用户名,导致链接变了,球球不刷了怎么办？--- 没关系,将新的链接 选择刷一天(免费),系统会自动帮你把原先账号数据完整的同步到新链接上来</p>
+		</div>
+	</div>
+</div>

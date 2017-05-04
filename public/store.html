@@ -1,0 +1,101 @@
+<div class="logo-wrap">
+	<h3 class="logo">
+		<a id="goto-index" href="javascript:;">GMCloud</a>
+		<p class="desc">购买棒棒糖贩卖机VIP激活码</p>
+	</h3>
+</div>
+<div class="main">
+	<div class="store-item">
+		<div class="item-detail">
+			<p class="choice-title">卡类型</p>
+			<div id="choice-type" class="choice-detail">
+				<a class="btn" href="javascript:;" data-card-type="day">日卡</a><a class="btn" href="javascript:;" data-card-type="week">
+				周卡</a><a class="btn" href="javascript:;" data-card-type="month">
+				月卡</a><a class="btn" href="javascript:;" data-card-type="year">
+				年卡</a>
+			</div>
+		</div>
+		<div class="item-detail">
+			<p class="choice-title">时长</p>
+			<div class="choice-detail">
+				<div id="dragbar-wrap" class="dragbar">
+					<p id="drag-showbar" class="dragbar-progress"></p>
+					<span id="drag-btn" class="dragbar-anchor"></span>
+				</div>
+				<div class="dragbar-value">
+					<div id="choice-type-day">
+						<input id="dragbar-input" type="text" class="form-control dragbar-input" name="dragbar-value">
+						<span class="value-type">天</span>
+					</div>
+					<div id="choice-type-month" class="ui-select-wrap">
+						<select class="ui-select">
+							<option value="1">1个月</option>
+							<option value="2">2个月</option>
+							<option value="3">3个月</option>
+							<option value="4">4个月</option>
+							<option value="5">5个月</option>
+							<option value="6">6个月</option>
+							<option value="7">7个月</option>
+							<option value="8">8个月</option>
+							<option value="9">9个月</option>
+							<option value="10">10个月</option>
+							<option value="11">11个月</option>
+						</select>
+					</div>
+					<div id="choice-type-year" class="ui-select-wrap">
+						<select class="ui-select">
+							<option value="1">1年</option>
+							<option value="2">2年</option>
+							<option value="3">3年</option>
+							<option value="4">4年</option>
+							<option value="5">5年</option>
+						</select>
+					</div>
+					
+				</div>
+				<!-- <div class="quick-choice">
+					<a href="javascript:;" data-card-type="day">日卡</a>
+					<a href="javascript:;" data-card-type="week">日卡</a>
+					<a href="javascript:;" data-card-type="month">月卡</a>
+					<a href="javascript:;" data-card-type="year">年卡</a>
+				</div> -->
+			</div>
+		</div>
+		<div class="item-detail">
+			<p class="choice-title">价格</p>
+			<div class="choice-detail highlight-orange">
+				¥<span id="buy-price"></span>
+			</div>
+		</div>
+		<div class="item-detail">
+			<p class="choice-title">支付方式</p>
+			<div id="channel-choice" class="choice-detail">
+				<div id="channel-common" style="display: none">
+					<label class="ui-radio-wrap" for="channel-type-alipay">
+						<input id="channel-type-alipay" type="radio" value="alipay_qr" name="choice-type">
+						<span class="ui-radio-fake"></span>
+						支付宝扫码
+					</label>
+					<label class="ui-radio-wrap" for="channel-type-wx">
+						<input id="channel-type-wx" type="radio" value="wx_pub_qr" name="choice-type">
+						<span class="ui-radio-fake"></span>
+						微信扫码
+					</label>
+				</div>
+				
+				<label style="display: none" id="channel-mobile" class="ui-radio-wrap" for="channel-type-wepub">
+					<input id="channel-type-wepub" type="radio" value="wx_pub" name="choice-type">
+					<span class="ui-radio-fake"></span>
+					微信支付
+				</label>
+				<!-- <div class="channel-common" id="channel-common" style="display: none">
+					<a class="btn" href="javascript:;" data-channel="alipay_qr">支付宝扫码</a>
+					<a class="btn" href="javascript:;" data-channel="wx_pub_qr">微信扫码</a>
+				</div> -->
+			</div>
+		</div>
+		<div class="choice-footer">
+			<a id="buy-submit" href="javascript:;" class="btn btn-submit">立即购买</a>
+		</div>
+	</div>
+</div>

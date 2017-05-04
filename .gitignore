@@ -1,0 +1,9 @@
+/vendor
+.env
+.idea
+composer.lock
+composer.phar
+*.rdb
+/node_modules
+/public/src
+*.DS_Store
